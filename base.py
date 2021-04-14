@@ -12,8 +12,8 @@ def main():
         print(f"{client.user.name} has connected to Discord.")
     
     for folder in os.listdir("modules"):
-        if os.path.exists(os.path.join("modules", folder, ".py")):
-            client.load_extension(f"modules.{folder}")
+        if os.path.exists(os.path.join("modules", folder, "cog.py")):
+            client.load_extension(f"modules.{folder}.cog")
 
     for folder in os.listdir("upcfcardsearch"):
         if os.path.exists(os.path.join("upcfcardsearch", folder, ".py")):
