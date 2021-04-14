@@ -18,7 +18,7 @@ def main():
 
     @client.command()
     async def ping(ctx):
-        await ctx.send("Pong")
+        await ctx.send(f"Pong")
 
     client.run(os.getenv("DISCORD_TOKEN"))
 
