@@ -11,13 +11,13 @@ def main():
     async def on_ready():
         print(f"{client.user.name} has connected to Discord.")
     
-    for folder in os.listdir("modules"):
-        if os.path.exists(os.path.join("modules", folder, "cog.py")):
-            client.load_extension(f"modules.{folder}.cog")
+    for file in os.listdir("module"):
+        if file.endswith(".py"):
+            client.load_extension(f'commands.{file[:-3]}')
 
-    for folder in os.listdir("upcfcardsearch"):
-        if os.path.exists(os.path.join("upcfcardsearch", folder, ".py")):
-            client.load_extension(f"upcfcardsearch.{folder}")
+    for file in os.listdir("upcfcardsearch"):
+        if file.endswith(".py"):
+            client.load_extension(f'commands.{file[:-3]}')
 
     client.run(os.getenv("DISCORD_TOKEN"))
 
