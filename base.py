@@ -10,11 +10,10 @@ def main():
     @client.event
     async def on_ready():
         print(f"{client.user.name} has connected to Discord.")
-
-    # load all cogs
+    
     for folder in os.listdir("modules"):
-        if os.path.exists(os.path.join("modules", folder, "cog.py")):
-            client.load_extension(f"modules.{folder}.cog")
+        if os.path.exists(os.path.join("modules", folder, ".py")):
+            client.load_extension(f"modules.{folder}")
 
     client.run(os.getenv("DISCORD_TOKEN"))
 
