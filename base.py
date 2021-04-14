@@ -18,7 +18,6 @@ def main():
 
     @client.command()
     async def ping(ctx):
-        """Checks for a response from the bot"""
         await ctx.send("Pong")
 
     client.run(os.getenv("DISCORD_TOKEN"))
