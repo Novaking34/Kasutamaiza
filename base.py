@@ -10,10 +10,16 @@ def main():
     @client.event
     async def on_ready():
         print(f"{client.user.name} has connected to Discord.")
-    
+
     for file in os.listdir("modules"):
-        if os.path.exists(os.path.join("modules", folder, file.endswith(".py"))):
-            client.load_extension(f'modules.{folder}.file.endswith(".py")')
+        if file.endswith(".py"):
+            name = file[:-3]
+            client.load_extension(f"modules.{name}")
+
+    for file in os.listdir("upcfcardsearch"):
+        if file.endswith(".py"):
+            name = file[:-3]
+            client.load_extension(f"upcfcardsearch.{name}")          
 
     client.run(os.getenv("DISCORD_TOKEN"))
 
