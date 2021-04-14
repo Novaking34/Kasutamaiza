@@ -15,6 +15,10 @@ def main():
         if os.path.exists(os.path.join("modules", folder, ".py")):
             client.load_extension(f"modules.{folder}")
 
+    for folder in os.listdir("upcfcardsearch"):
+        if os.path.exists(os.path.join("upcfcardsearch", folder, ".py")):
+            client.load_extension(f"upcfcardsearch.{folder}")
+
     client.run(os.getenv("DISCORD_TOKEN"))
 
 if __name__ == '__main__':
