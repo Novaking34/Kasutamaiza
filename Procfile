@@ -1,0 +1,1 @@
+worker: python C:\Users\User\Documents\GitHub\Bot\Kasutamaiza\base.py
