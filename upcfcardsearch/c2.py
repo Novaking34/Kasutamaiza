@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 from discord.utils import get
 
-class Embed(commands.Cog, name="c2"):
+class c2(commands.Cog, name="c2"):
 
     def __init__(self, bot: commands.Bot):
         self.bot = bot
@@ -20,4 +20,4 @@ class Embed(commands.Cog, name="c2"):
         await ctx.send(embed=embed)
 
 def setup(bot: commands.Bot):
-    bot.add_cog(Embed(bot))
+    bot.add_cog(c2(bot))

@@ -2,11 +2,11 @@ import discord
 from discord.ext import commands
 from discord.utils import get
 
-class Embed(commands.Cog, name="c2"):
+class c1(commands.Cog, name="c1"):
 
     def __init__(self, bot: commands.Bot):
         self.bot = bot
-    @commands.command(name='Flame_Claws_Dragon', aliases=['c2'])
+    @commands.command(name='Flame_Claws_Dragon', aliases=['c1'])
     async def example_embed(self, ctx):
         embed = discord.Embed(title='Flame-Claws Dragon',
                               color=0xff8b53)
@@ -21,4 +21,4 @@ class Embed(commands.Cog, name="c2"):
         await ctx.send(embed=embed)
 
 def setup(bot: commands.Bot):
-    bot.add_cog(Embed(bot))
+    bot.add_cog(c1(bot))
