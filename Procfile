@@ -1,1 +1,1 @@
-worker: python base.py 
+worker: python Kasutamaiza/base.py 
