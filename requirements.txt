@@ -1,3 +1,4 @@
+git+https://github.com/ProfessorSean/Kasutamaiza
 aiohttp==3.7.4.post0
 asgiref==3.3.4
 astroid==2.5.3
