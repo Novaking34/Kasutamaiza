@@ -12,9 +12,9 @@ class c2(commands.Cog, name="c2"):
                               color=0x1D9E74)
         embed.set_thumbnail(url='https://www.duelingbook.com/images/custom-pics/2300000/2304599.jpg')
 
-        embed.add_field(name='Status', value='Casual:3/Tournament:3', inline=True)
+        embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3', inline=True)
         embed.add_field(name='Type', value='Spell/Equip', inline=False)
-        embed.add_field(name='Card Effect', value='Equip only to a Beast, DInosaur, or Dragon monster. If equipped to "Flame-Claws Dragon", The equipped monster gains 1000 ATK, otherwise, the equipped monster gains 600 ATK/DEF. The equipped monster cannot attack an Attack Position monster whose ATK is less than or equal to half the equipped monster\'s ATK. If this card is destroyed by your own card effect: You can return it to the Deck.', inline=False)
+        embed.add_field(name='Card Effect', value='Equip only to a Beast, Dinosaur, or Dragon monster. If equipped to "Flame-Claws Dragon", The equipped monster gains 1000 ATK, otherwise, the equipped monster gains 600 ATK/DEF. The equipped monster cannot attack an Attack Position monster whose ATK is less than or equal to half the equipped monster\'s ATK. If this card is destroyed by your own card effect: You can return it to the Deck.', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)
