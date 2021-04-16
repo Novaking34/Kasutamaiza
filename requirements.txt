@@ -27,4 +27,4 @@ typing-extensions==3.7.4.3
 whitenoise==5.2.0
 wrapt==1.12.1
 yarl==1.6.3
-discord==<version>
+discord==1.0.1
