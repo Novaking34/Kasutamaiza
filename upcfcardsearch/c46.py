@@ -6,7 +6,7 @@ class c46(commands.Cog, name="c46"):
 
     def __init__(self, bot: commands.Bot):
         self.bot = bot
-    @commands.command(name='Divine_Justice_of_the_Kasutamaiza_Tribe', aliases=['c46'])
+    @commands.command(name='Divine_Justice_of_the_Kasutamaiza_Tribe', aliases=['c46','Kasutamaiza_2'])
     async def example_embed(self, ctx):
         embed = discord.Embed(title='Divine Justice of the Kasutamaiza Tribe',
                               color=0xBC5A84)

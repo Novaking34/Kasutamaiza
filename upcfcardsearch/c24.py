@@ -6,7 +6,7 @@ class c24(commands.Cog, name="c24"):
 
     def __init__(self, bot: commands.Bot):
         self.bot = bot
-    @commands.command(name='Tide_Temporal_Balance', aliases=['c24'])
+    @commands.command(name='Tide_Temporal_Balance', aliases=['c24','Temporal_14'])
     async def example_embed(self, ctx):
         embed = discord.Embed(title='Tide, Temporal Balance',
                               color=0xA086B7)

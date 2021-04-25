@@ -6,7 +6,7 @@ class c40(commands.Cog, name="c40"):
 
     def __init__(self, bot: commands.Bot):
         self.bot = bot
-    @commands.command(name='Kasutamaiza_the_Creator', aliases=['c40'])
+    @commands.command(name='Kasutamaiza_the_Creator', aliases=['c40','Kasutamaiza_1'])
     async def example_embed(self, ctx):
         embed = discord.Embed(title='Kasutamaiza the Creator',
                               color=0xff8b53)

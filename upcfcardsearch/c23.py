@@ -6,7 +6,7 @@ class c23(commands.Cog, name="c23"):
 
     def __init__(self, bot: commands.Bot):
         self.bot = bot
-    @commands.command(name='Qrescent_Temporal_Balance', aliases=['c23'])
+    @commands.command(name='Qrescent_Temporal_Balance', aliases=['c23','Temporal_13'])
     async def example_embed(self, ctx):
         embed = discord.Embed(title='Qrescent, Temporal Balance',
                               color=0xA086B7)

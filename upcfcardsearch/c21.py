@@ -6,7 +6,7 @@ class c21(commands.Cog, name="c21"):
 
     def __init__(self, bot: commands.Bot):
         self.bot = bot
-    @commands.command(name='Temporal_Fusion', aliases=['c21'])
+    @commands.command(name='Temporal_Fusion', aliases=['c21','Temporal_11'])
     async def example_embed(self, ctx):
         embed = discord.Embed(title='Temporal Fusion',
                               color=0x1D9E74)

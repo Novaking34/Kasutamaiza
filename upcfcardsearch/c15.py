@@ -6,7 +6,7 @@ class c15(commands.Cog, name="c15"):
 
     def __init__(self, bot: commands.Bot):
         self.bot = bot
-    @commands.command(name='Qora_Temporal_Magistrate', aliases=['c15'])
+    @commands.command(name='Qora_Temporal_Magistrate', aliases=['c15','Temporal_5'])
     async def example_embed(self, ctx):
         embed = discord.Embed(title='Qora, Temporal Magistrate',
                               color=0xff8b53)

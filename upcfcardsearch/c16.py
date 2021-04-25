@@ -6,7 +6,7 @@ class c16(commands.Cog, name="c16"):
 
     def __init__(self, bot: commands.Bot):
         self.bot = bot
-    @commands.command(name='Quoroq_Temporal_Justiciar', aliases=['c16'])
+    @commands.command(name='Quoroq_Temporal_Justiciar', aliases=['c16','Temporal_6'])
     async def example_embed(self, ctx):
         embed = discord.Embed(title='Quoroq, Temporal Justiciar',
                               color=0xff8b53)

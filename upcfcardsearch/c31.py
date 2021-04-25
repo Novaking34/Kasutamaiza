@@ -6,7 +6,7 @@ class c31(commands.Cog, name="c31"):
 
     def __init__(self, bot: commands.Bot):
         self.bot = bot
-    @commands.command(name='The_Hidden_Treasure_Mining_Site', aliases=['c31'])
+    @commands.command(name='The_Hidden_Treasure_Mining_Site', aliases=['c31','Hidden_Treasure_7'])
     async def example_embed(self, ctx):
         embed = discord.Embed(title='The Hidden Treasure Mining Site',
                               color=0x1D9E74)

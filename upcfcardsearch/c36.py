@@ -6,7 +6,7 @@ class c36(commands.Cog, name="c36"):
 
     def __init__(self, bot: commands.Bot):
         self.bot = bot
-    @commands.command(name='Hidden_Treasure_Rainbow_Gem_Dragon', aliases=['c36'])
+    @commands.command(name='Hidden_Treasure_Rainbow_Gem_Dragon', aliases=['c36','Hidden_Treasure_12'])
     async def example_embed(self, ctx):
         embed = discord.Embed(title='Hidden Treasure Rainbow Gem Dragon')
         embed.set_thumbnail(url='https://www.duelingbook.com/images/custom-pics/2300000/2321351.jpg')
