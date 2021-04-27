@@ -13,7 +13,7 @@ class c52(commands.Cog, name="c52"):
         embed.set_thumbnail(url='https://www.duelingbook.com/images/custom-pics/2300000/2321455.jpg')
 
         embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3', inline=True)
-        embed.add_field(name='Type (Attribute)', value='Rock/Effect (Rock)', inline=False)
+        embed.add_field(name='Type (Attribute)', value='Rock/Effect (EARTH)', inline=False)
         embed.add_field(name='Level (ATK/DEF)', value='1 (0/0)', inline=False)
         embed.add_field(name='Monster Effect', value='Any battle damage involving this card is reduced to 0. You can Tribute this Normal Summoned card; add 1 Level 4 or lower Normal Monster from your Deck to your hand. You can only activate this effect of "A-dorawisp" once per turn.', inline=False)
         embed.set_footer(text='Set Code: ANCF')

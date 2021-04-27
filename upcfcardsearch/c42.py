@@ -14,7 +14,7 @@ class c42(commands.Cog, name="c42"):
 
         embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3', inline=True)
         embed.add_field(name='Type', value='Spell/Normal', inline=False)
-        embed.add_field(name='Card Effect', value='Banish 1 Divine-Beast monster from your hand; draw 2 cards. You can only activate 1 "A Gift from the Divine" per turn', inline=False)
+        embed.add_field(name='Card Effect', value='Banish 1 Divine-Beast monster from your hand; draw 2 cards. You can only activate 1 "A Gift from the Divine" per turn.', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)
