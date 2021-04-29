@@ -9,7 +9,7 @@ class c114(commands.Cog, name="c114"):
     @commands.command(name='Ghost_Maiden_Ana', aliases=['c114'])
     async def example_embed(self, ctx):
         embed = discord.Embed(title='Ghost Maiden Ana',
-                              color=0xffffff)
+                              color=0xcccccc)
         embed.set_thumbnail(url='https://www.duelingbook.com/images/custom-pics/2300000/2321578.jpg')
 
         embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3', inline=True)

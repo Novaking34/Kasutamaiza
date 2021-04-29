@@ -9,7 +9,7 @@ class c115(commands.Cog, name="c115"):
     @commands.command(name='Machine_Lord_the_Shining', aliases=['c115', 'Machine_Lord_2'])
     async def example_embed(self, ctx):
         embed = discord.Embed(title='Machine Lord the Shining',
-                              color=0xffffff)
+                              color=0xcccccc)
         embed.set_thumbnail(url='https://www.duelingbook.com/images/custom-pics/2300000/2321579.jpg')
 
         embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3 (Machine Lord)', inline=True)
