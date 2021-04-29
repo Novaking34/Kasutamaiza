@@ -6,7 +6,7 @@ class c22(commands.Cog, name="c22"):
 
     def __init__(self, bot: commands.Bot):
         self.bot = bot
-    @commands.command(name='Chrono_Temporal_Balance', aliases=['c22','Temporal_12'])
+    @commands.command(name='Chrono_Temporal_Balance', aliases=['c22','Temporal_13'])
     async def example_embed(self, ctx):
         embed = discord.Embed(title='Chrono, Temporal Balance',
                               color=0xA086B7)

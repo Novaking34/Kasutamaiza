@@ -6,7 +6,7 @@ class c13(commands.Cog, name="c13"):
 
     def __init__(self, bot: commands.Bot):
         self.bot = bot
-    @commands.command(name='Bora_Temporal_Apprentice', aliases=['c13','Temporal_3'])
+    @commands.command(name='Bora_Temporal_Apprentice', aliases=['c13','Temporal_4'])
     async def example_embed(self, ctx):
         embed = discord.Embed(title='Bora, Temporal Apprentice',
                               color=0xff8b53)

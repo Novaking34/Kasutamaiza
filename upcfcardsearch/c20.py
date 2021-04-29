@@ -6,7 +6,7 @@ class c20(commands.Cog, name="c20"):
 
     def __init__(self, bot: commands.Bot):
         self.bot = bot
-    @commands.command(name='Varatora_Temporal_Justiciar', aliases=['c20','Temporal_10'])
+    @commands.command(name='Varatora_Temporal_Justiciar', aliases=['c20','Temporal_11'])
     async def example_embed(self, ctx):
         embed = discord.Embed(title='Varatora, Temporal Justiciar',
                               color=0xff8b53)
