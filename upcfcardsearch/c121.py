@@ -15,7 +15,7 @@ class c121(commands.Cog, name="c121"):
         embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3', inline=True)
         embed.add_field(name='Type (Attribute)', value='Spellcaster/Normal (LIGHT)', inline=False)
         embed.add_field(name='Level (ATK/DEF)', value='3 (1800/1100)', inline=False)
-        embed.add_field(name='Monster Effect', value='A Beam Mage is a member of a closed community of wizards. Children with innate abilities are initiated and taught to harness their powers until they could conjure blasts without wands.', inline=False)
+        embed.add_field(name='Lore Text', value='A Beam Mage is a member of a closed community of wizards. Children with innate abilities are initiated and taught to harness their powers until they could conjure blasts without wands.', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)

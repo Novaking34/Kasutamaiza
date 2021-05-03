@@ -16,7 +16,7 @@ class c139(commands.Cog, name="c139"):
         embed.add_field(name='Type (Attribute)', value='Dinosaur/Pendulum/Normal (FIRE)', inline=False)
         embed.add_field(name='Level (ATK/DEF) [Pendulum Scales]', value='5 (2050/1850) [3/3]', inline=False)
         embed.add_field(name='Pendulum Effect', value='Once per turn: You can target 1 Dinosaur monster you control; Return that target to your hand, then Special Summon this card from your Pendulum Zone.', inline=False)
-        embed.add_field(name='Monster Effect', value='Infused with a powerful magic. Li-Cho hopes to spread his new teachings across the realms. one day hoping to build a Dinomage empire of his own.', inline=False)
+        embed.add_field(name='Lore Text', value='Infused with a powerful magic. Li-Cho hopes to spread his new teachings across the realms. one day hoping to build a Dinomage empire of his own.', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)

@@ -15,7 +15,7 @@ class c138(commands.Cog, name="c138"):
         embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3', inline=True)
         embed.add_field(name='Type (Attribute)', value='Wyrm/Normal (FIRE)', inline=False)
         embed.add_field(name='Level (ATK/DEF)', value='8 (3000/2800)', inline=False)
-        embed.add_field(name='Monster Effect', value='In order to prevent the living and dead from creating chaos once more, the Dragon race offered their champion to stand guard at the Gates between the two worlds. Standing tall, only the most clever of the bunch can get past his mighty gaze.', inline=False)
+        embed.add_field(name='Lore Text', value='In order to prevent the living and dead from creating chaos once more, the Dragon race offered their champion to stand guard at the Gates between the two worlds. Standing tall, only the most clever of the bunch can get past his mighty gaze.', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)

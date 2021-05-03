@@ -15,7 +15,7 @@ class c128(commands.Cog, name="c128"):
         embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3', inline=True)
         embed.add_field(name='Type (Attribute)', value='Spellcaster/Normal (DARK)', inline=False)
         embed.add_field(name='Level (ATK/DEF)', value='5 (2200/1500)', inline=False)
-        embed.add_field(name='Monster Effect', value='Feared by all who gazes upon his power, Anu rules over the darkness with an iron fist. It is said that Anu has his potential bottled away, awaiting for someone to release his true power.', inline=False)
+        embed.add_field(name='Lore Text', value='Feared by all who gazes upon his power, Anu rules over the darkness with an iron fist. It is said that Anu has his potential bottled away, awaiting for someone to release his true power.', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)

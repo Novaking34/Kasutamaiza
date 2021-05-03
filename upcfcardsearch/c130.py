@@ -15,7 +15,7 @@ class c130(commands.Cog, name="c130"):
         embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3', inline=True)
         embed.add_field(name='Type (Attribute)', value='Aqua/Normal (WATER)', inline=False)
         embed.add_field(name='Level (ATK/DEF)', value='1 (500/750)', inline=False)
-        embed.add_field(name='Monster Effect', value='She hits the swimming pool scene, water so clean, they think she is so mean, but my girl Aquamarine is a Water Bearing Queen!', inline=False)
+        embed.add_field(name='Lore Text', value='She hits the swimming pool scene, water so clean, they think she is so mean, but my girl Aquamarine is a Water Bearing Queen!', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)

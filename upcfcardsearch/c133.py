@@ -15,7 +15,7 @@ class c133(commands.Cog, name="c133"):
         embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3', inline=True)
         embed.add_field(name='Type (Attribute)', value='Aqua/Normal (WATER)', inline=False)
         embed.add_field(name='Level (ATK/DEF)', value='3 (1800/100)', inline=False)
-        embed.add_field(name='Monster Effect', value='He is in search for his princess, hoping to break the curse that is upon him.', inline=False)
+        embed.add_field(name='Lore Text', value='He is in search for his princess, hoping to break the curse that is upon him.', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)

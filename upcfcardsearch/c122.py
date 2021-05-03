@@ -15,7 +15,7 @@ class c122(commands.Cog, name="c122"):
         embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3', inline=True)
         embed.add_field(name='Type (Attribute)', value='Warrior/Normal (FIRE)', inline=False)
         embed.add_field(name='Level (ATK/DEF)', value='2 (1200/1000)', inline=False)
-        embed.add_field(name='Monster Effect', value='A formidable foot soldier whose blood boils in combat. He waged war against the man who desecrated the graves of his family.', inline=False)
+        embed.add_field(name='Lore Text', value='A formidable foot soldier whose blood boils in combat. He waged war against the man who desecrated the graves of his family.', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)

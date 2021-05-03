@@ -15,7 +15,7 @@ class c134(commands.Cog, name="c134"):
         embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3', inline=True)
         embed.add_field(name='Type (Attribute)', value='Psychic/Normal (WIND)', inline=False)
         embed.add_field(name='Level (ATK/DEF)', value='3 (1500/500)', inline=False)
-        embed.add_field(name='Monster Effect', value='She roams the free forest and is looking for her prince. Determined to rule her own kingdom, she takes no prisoners.', inline=False)
+        embed.add_field(name='Lore Text', value='She roams the free forest and is looking for her prince. Determined to rule her own kingdom, she takes no prisoners.', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)

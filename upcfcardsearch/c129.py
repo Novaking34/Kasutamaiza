@@ -15,7 +15,7 @@ class c129(commands.Cog, name="c129"):
         embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3', inline=True)
         embed.add_field(name='Type (Attribute)', value='Aqua/Normal (WATER)', inline=False)
         embed.add_field(name='Level (ATK/DEF)', value='4 (2200/0)', inline=False)
-        embed.add_field(name='Monster Effect', value='Among the great reef, a patrolling battleship roams the sea. Called the Aqua Marine, all those who see this powerful ship quiver in fear.', inline=False)
+        embed.add_field(name='Lore Text', value='Among the great reef, a patrolling battleship roams the sea. Called the Aqua Marine, all those who see this powerful ship quiver in fear.', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)

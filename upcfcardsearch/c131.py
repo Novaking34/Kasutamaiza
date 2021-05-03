@@ -15,7 +15,7 @@ class c131(commands.Cog, name="c131"):
         embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3', inline=True)
         embed.add_field(name='Type (Attribute)', value='Machine/Normal (EARTH)', inline=False)
         embed.add_field(name='Level (ATK/DEF)', value='7 (2050/2650)', inline=False)
-        embed.add_field(name='Monster Effect', value='MECHA-MECHA! Machine...loading...updating......GO! ATAMOTONA FULL THROTTLE!!!', inline=False)
+        embed.add_field(name='Lore Text', value='MECHA-MECHA! Machine...loading...updating......GO! ATAMOTONA FULL THROTTLE!!!', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)

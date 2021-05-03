@@ -15,7 +15,7 @@ class c125(commands.Cog, name="c125"):
         embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3', inline=True)
         embed.add_field(name='Type (Attribute)', value='Dragon/Tuner/Normal (FIRE)', inline=False)
         embed.add_field(name='Level (ATK/DEF)', value='4 (2000/1000)', inline=False)
-        embed.add_field(name='Monster Effect', value='This little dragon will one day grow into a terrifying creature with unmatched combat abilities.', inline=False)
+        embed.add_field(name='Lore Text', value='This little dragon will one day grow into a terrifying creature with unmatched combat abilities.', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)

@@ -15,7 +15,7 @@ class c137(commands.Cog, name="c137"):
         embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3', inline=True)
         embed.add_field(name='Type (Attribute)', value='Plant/Normal (EARTH)', inline=False)
         embed.add_field(name='Level (ATK/DEF)', value='5 (2350/1400)', inline=False)
-        embed.add_field(name='Monster Effect', value='Fear them, for they lurk the darkness of the great forest. These plants hunt and destroy all they see, causing fear among all the forest dwellers.', inline=False)
+        embed.add_field(name='Lore Text', value='Fear them, for they lurk the darkness of the great forest. These plants hunt and destroy all they see, causing fear among all the forest dwellers.', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)

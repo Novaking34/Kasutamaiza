@@ -15,7 +15,7 @@ class c124(commands.Cog, name="c124"):
         embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3', inline=True)
         embed.add_field(name='Type (Attribute)', value='Zombie/Normal (DARK)', inline=False)
         embed.add_field(name='Level (ATK/DEF)', value='4 (2000/1000)', inline=False)
-        embed.add_field(name='Monster Effect', value='The desecrated corpse of a formidable warrior. After a year of service to the necromancer that raised it, it proved worthy of commanding the entire army of undead. While it may look dim, the Skeletal Shogun is a strategic genius.', inline=False)
+        embed.add_field(name='Lore Text', value='The desecrated corpse of a formidable warrior. After a year of service to the necromancer that raised it, it proved worthy of commanding the entire army of undead. While it may look dim, the Skeletal Shogun is a strategic genius.', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)

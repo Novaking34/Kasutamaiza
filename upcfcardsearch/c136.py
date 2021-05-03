@@ -15,7 +15,7 @@ class c136(commands.Cog, name="c136"):
         embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3', inline=True)
         embed.add_field(name='Type (Attribute)', value='Fiend/Normal (DARK)', inline=False)
         embed.add_field(name='Level (ATK/DEF)', value='6 (1950/1200)', inline=False)
-        embed.add_field(name='Monster Effect', value='For the reign of darkness is nigh, and the new Palace of the Pale Moonlight lurks. For Iyu does lurk in the shadows, awaiting for the perfect moment to ascend the throne.', inline=False)
+        embed.add_field(name='Lore Text', value='For the reign of darkness is nigh, and the new Palace of the Pale Moonlight lurks. For Iyu does lurk in the shadows, awaiting for the perfect moment to ascend the throne.', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)

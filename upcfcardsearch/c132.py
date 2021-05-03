@@ -15,7 +15,7 @@ class c132(commands.Cog, name="c132"):
         embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3', inline=True)
         embed.add_field(name='Type (Attribute)', value='Cyberse/Normal (FIRE)', inline=False)
         embed.add_field(name='Level (ATK/DEF)', value='7 (3000/2500)', inline=False)
-        embed.add_field(name='Monster Effect', value='Constantly on guard, the Cyberse-Cops stop at nothing to ensure truth and justice is upheld. They are constanly updated on the crime in the area and are swift in taking action.', inline=False)
+        embed.add_field(name='Lore Text', value='Constantly on guard, the Cyberse-Cops stop at nothing to ensure truth and justice is upheld. They are constanly updated on the crime in the area and are swift in taking action.', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)
