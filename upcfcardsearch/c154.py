@@ -15,7 +15,7 @@ class c154(commands.Cog, name="c154"):
         embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3 (LeSpookie)', inline=True)
         embed.add_field(name='Type (Attribute)', value='Zombie/Normal (DARK)', inline=False)
         embed.add_field(name='Level (ATK/DEF)', value='6 (2100/2400)', inline=False)
-        embed.add_field(name='Lore Text', value='Some say that late at night, a dark shadow follows Magolia, possesing anyone who may come into contact with her. Magolia haunts the mansion on LeSpookie Street, keeping hidden all of its dark secrets.\n(This card is always treated as a "LeSpookie" card.)', inline=False)
+        embed.add_field(name='Lore Text', value='Some say that late at night, a dark shadow follows Magolia, possesing anyone who may come into contact with her. Magolia haunts the mansion on LeSpookie Street, keeping hidden all of its dark secrets.\n\n(This card is always treated as a "LeSpookie" card.)', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)
