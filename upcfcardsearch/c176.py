@@ -6,7 +6,7 @@ class c176(commands.Cog, name="c176"):
 
     def __init__(self, bot: commands.Bot):
         self.bot = bot
-    @commands.command(name='Phantaclysmic_Phenomena', aliases=['c175', 'Phantaclysms_10'])
+    @commands.command(name='Phantaclysmic_Phenomena', aliases=['c176', 'Phantaclysms_10'])
     async def example_embed(self, ctx):
         embed = discord.Embed(title='Phantaclysmic Phenomena',
                               color=0xBC5A84)
