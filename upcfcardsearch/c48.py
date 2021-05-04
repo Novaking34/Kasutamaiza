@@ -15,7 +15,7 @@ class c48(commands.Cog, name="c48"):
         embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3', inline=True)
         embed.add_field(name='Type (Attribute)', value='Fiend/Effect (DARK)', inline=False)
         embed.add_field(name='Level (ATK/DEF)', value='4 (1500/1050)', inline=False)
-        embed.add_field(name='Monster Effect', value='You can substitute this card for any 1 Fusion Material Monster. When you do this, the other Fusion Material Monster(s) must be the correct one(s). You can banish this card from your GY; Add 1 "Fusion" card or "Power Polymerization" from your GY to your hand. You can only use this effect of "A True Catastrophe" once per turn.', inline=False)
+        embed.add_field(name='Monster Effect', value='You can substitute this card for any 1 Fusion Material Monster. When you do this, the other Fusion Material Monster(s) must be the correct one(s). During your End Phase, except the turn this card was used as Fusion Material: You can banish this card from your GY; Add 1 "Fusion" Spell or "Power Polymerization" from your GY to your hand. You can only use this effect of "A True Catastrophe" once per turn.', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)

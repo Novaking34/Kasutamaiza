@@ -14,7 +14,7 @@ class c93(commands.Cog, name="c93"):
 
         embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3', inline=True)
         embed.add_field(name='Type', value='Trap/Counter', inline=False)
-        embed.add_field(name='Card Effect', value='When a Field Spell Card or effect is activated: Pay 1000 LP; negate the activation, then, destroy that card. You can banish this card from your GY; add 1 Field Spell from your Deck to your hand.', inline=False)
+        embed.add_field(name='Card Effect', value='When a Field Spell Card or effect is activated: Pay 1000 LP; negate the activation, then, destroy that card. You can banish this card from your GY, except the turn it was sent to the GY; add 1 Field Spell from your Deck to your hand. You can only use this effect of "Dra-Co World Ea-ter" once per turn.', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)
