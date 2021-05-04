@@ -9,7 +9,7 @@ class c178(commands.Cog, name="c178"):
     @commands.command(name='Lord_of_Phantaclysms_Diaschino', aliases=['c178', 'Phantacylsms_12'])
     async def example_embed(self, ctx):
         embed = discord.Embed(title='Lord of Phantaclysms, Diaschino')
-        embed.set_thumbnail(url='https://www.duelingbook.com/images/custom-pics/2300000/2304691.jpg')
+        embed.set_thumbnail(url='https://www.duelingbook.com/images/custom-pics/2300000/2344841.jpg')
 
         embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3 (Phantaclysms)', inline=True)
         embed.add_field(name='Type (Attribute)', value='Spellcaster/Xyz/Effect (LIGHT)', inline=False)
