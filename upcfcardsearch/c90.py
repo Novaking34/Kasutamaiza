@@ -14,7 +14,7 @@ class c90(commands.Cog, name="c90"):
 
         embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3', inline=True)
         embed.add_field(name='Type', value='Trap/Normal', inline=False)
-        embed.add_field(name='Card Effect', value='If each player has 2 or less cards in their hand: Pay LP in multiples of 1000 (max. 3000); each player draws 1 card for each 1000 LP paid, then each player discards cards from their hand equal to the number of cards drawn -1. You can banish this card from your GY, except the turn it was sent there; draw 1 card. You can only activate 1 "A Term for Peace" per turn.', inline=False)
+        embed.add_field(name='Card Effect', value='If each player has 2 or less cards in their hand: Pay LP in multiples of 1000 (max. 3000); each player draws 1 card for each 1000 LP paid, then each player discards cards from their hand equal to the number of cards drawn -1. You can banish this card from your GY, except the turn it was sent there; draw 1 card. You can only use this effect of "A Term for Peace" once per turn. You can only activate 1 "A Term for Peace" per turn.', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)
