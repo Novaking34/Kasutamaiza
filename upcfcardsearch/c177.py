@@ -6,7 +6,7 @@ class c177(commands.Cog, name="c177"):
 
     def __init__(self, bot: commands.Bot):
         self.bot = bot
-    @commands.command(name='Lich_of_Phantaclysms_Thanatos', aliases=['c177', 'Phantacylsms_11'])
+    @commands.command(name='Lich_of_Phantaclysms_Thanatos', aliases=['c177', 'Phantaclysms_11'])
     async def example_embed(self, ctx):
         embed = discord.Embed(title='Lich of Phantaclysms, Thanatos')
         embed.set_thumbnail(url='https://www.duelingbook.com/images/custom-pics/2300000/2344838.jpg')

@@ -6,7 +6,7 @@ class c178(commands.Cog, name="c178"):
 
     def __init__(self, bot: commands.Bot):
         self.bot = bot
-    @commands.command(name='Lord_of_Phantaclysms_Diaschino', aliases=['c178', 'Phantacylsms_12'])
+    @commands.command(name='Lord_of_Phantaclysms_Diaschino', aliases=['c178', 'Phantaclysms_12'])
     async def example_embed(self, ctx):
         embed = discord.Embed(title='Lord of Phantaclysms, Diaschino')
         embed.set_thumbnail(url='https://www.duelingbook.com/images/custom-pics/2300000/2344841.jpg')
