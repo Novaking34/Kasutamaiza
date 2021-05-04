@@ -15,7 +15,7 @@ class c51(commands.Cog, name="c51"):
         embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3 (A-dora)', inline=True)
         embed.add_field(name='Type (Attribute)', value='Fairy/Effect (LIGHT)', inline=False)
         embed.add_field(name='Level (ATK/DEF)', value='1 (300/200)', inline=False)
-        embed.add_field(name='Monster Effect', value='Any battle damage involving this card is reduced to 0. You can Tribute this Normal Summoned card; add 1 Level 4 or lower Normal Monster from your Deck to your hand. You can only activate this effect of "A-dorawisp" once per turn.', inline=False)
+        embed.add_field(name='Monster Effect', value='Any battle damage involving this card is reduced to 0. You can Tribute this Normal Summoned card; Special Summon 1 Level 4 or lower Normal Monster from your Deck. You can only activate this effect of "A-dorawisp" once per turn.', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)

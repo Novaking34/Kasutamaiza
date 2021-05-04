@@ -15,7 +15,7 @@ class c57(commands.Cog, name="c57"):
         embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3', inline=True)
         embed.add_field(name='Type (Attribute)', value='Beast-Warrior/Tuner/Effect (FIRE)', inline=False)
         embed.add_field(name='Level (ATK/DEF)', value='4 (0/1800)', inline=False)
-        embed.add_field(name='Monster Effect', value='When your opponent would Special Summon a monster(s) from the Extra Deck with 2500 or more ATK (Quick Effect): You can discard this card; return that monster(s) to the Deck, then, if all of the monsters that were used for the Summon of that monster are in the GYs, your opponent can Special Summon them in Defense Position. Until the end of this turn, neither player can Summon monsters from the Extra Deck.', inline=False)
+        embed.add_field(name='Monster Effect', value='When your opponent would Special Summon a monster(s) from the Extra Deck with 2600 or more ATK (Quick Effect): You can discard this card; return that monster(s) to the Deck, then, if all of the monsters that were used for the Summon of that monster are in the GYs, your opponent can Special Summon them in Defense Position. Until the end of this turn, neither player can Summon monsters from the Extra Deck.', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)
