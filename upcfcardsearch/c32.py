@@ -14,7 +14,7 @@ class c32(commands.Cog, name="c32"):
      
         embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3 (Hidden Treasure)', inline=True)
         embed.add_field(name='Type', value='Spell/Normal', inline=False)
-        embed.add_field(name='Card Effect', value='Discard 1 card; add 1 "Hidden Treasure" card from your Deck to your hand. If this card is discarded: You can add 1 "Hidden Treasure" monster from your GY to your hand. You must control 2 or more Beast monsters or "Hidden Treasure" monsters to activate and resolve this effect of "Retrieve the Hidden Treasure".', inline=False)
+        embed.add_field(name='Card Effect', value='Discard 1 card; apply 1 of the following effects, depending on the number of "Retrieve the Hidden Treasure"(s) are in your GY.\n● 0+: Add 1 "Hidden Treasure" monster from your Deck to your hand.\n● 1+: Add 1 "Hidden Treasure" card from your GY to your hand, except "Retrieve the Hidden Treasure"\n● 2: Add 1 "Hidden Treasure" card from your Deck to your hand.\nIf this card is discarded: You can add 1 "Hidden Treasure" monster from your GY to your hand. You must control 2 or more Beast monsters or a "Hidden Treasure" monster to activate and resolve this effect of "Retrieve the Hidden Treasure".', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)
