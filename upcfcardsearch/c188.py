@@ -13,7 +13,7 @@ class c188(commands.Cog, name="c188"):
         embed.set_thumbnail(url='https://www.duelingbook.com/images/custom-pics/2300000/2345156.jpg')
 
         embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3 (Devoted Servant)', inline=True)
-        embed.add_field(name='Type', value='Trap/Normal', inline=False)
+        embed.add_field(name='Type', value='Trap/Continuous', inline=False)
         embed.add_field(name='Card Effect', value='You can discard 1 "Devoted Servant" card, or banish 2 "Devoted Servant" cards from your GY, or shuffle 3 banished "Devoted Servant" cards into the Deck; add 1 "Devoted Servant" monster from your Deck to your hand. If this card is banished: You can send 1 "Devoted Servant" card from your Deck to the GY. You can only use each effect of "Devoted Servant\'s Preparation" once per turn.', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
