@@ -6,7 +6,7 @@ class c206(commands.Cog, name="c206"):
 
     def __init__(self, bot: commands.Bot):
         self.bot = bot
-    @commands.command(name='Scorn_Operative_Pyre', aliases=['c206', 'Scorn_Operative_12'])
+    @commands.command(name='Scorn_Operative_Pyre', aliases=['c206', 'Scorn_Operative_13'])
     async def example_embed(self, ctx):
         embed = discord.Embed(title='Scorn Operative - Pyre',
                               color=0xcccccc)
