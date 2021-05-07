@@ -12,7 +12,7 @@ class c204(commands.Cog, name="c204"):
                               color=0xBC5A84)
         embed.set_thumbnail(url='https://www.duelingbook.com/images/custom-pics/2300000/2348914.jpg')
 
-        embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3 (Scorn_Operative)', inline=True)
+        embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3 (Scorn Operative)', inline=True)
         embed.add_field(name='Type', value='Trap/Continuous', inline=False)
         embed.add_field(name='Card Effect', value='If a "Scorn Operative" monster you control declares an attack, or is attacked: You can draw 1 card. You can only use this effect of "Manoeuvre - Salt the Earth" up to twice per turn. If you activate and resolve the effect of "Manoeuvre - Synthetic Motion": You can draw 1 card. You can only control 1 "Manoeuvre - Salt the Earth".', inline=False)
         embed.set_footer(text='Set Code: GMMP')
