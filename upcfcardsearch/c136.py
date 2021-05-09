@@ -6,16 +6,16 @@ class c136(commands.Cog, name="c136"):
 
     def __init__(self, bot: commands.Bot):
         self.bot = bot
-    @commands.command(name='Dark_Minister_Iyu', aliases=['c136'])
+    @commands.command(name='Dante\'s_Beast', aliases=['c136'])
     async def example_embed(self, ctx):
-        embed = discord.Embed(title='Dark Minister Iyu',
+        embed = discord.Embed(title='Dante\'s Beast',
                               color=0xFDE68A)
         embed.set_thumbnail(url='https://www.duelingbook.com/images/custom-pics/2300000/2334905.jpg')
 
         embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3', inline=True)
-        embed.add_field(name='Type (Attribute)', value='Fiend/Normal (DARK)', inline=False)
-        embed.add_field(name='Level (ATK/DEF)', value='6 (1950/1200)', inline=False)
-        embed.add_field(name='Lore Text', value='For the reign of darkness is nigh, and the new Palace of the Pale Moonlight lurks. For Iyu does lurk in the shadows, awaiting for the perfect moment to ascend the throne.', inline=False)
+        embed.add_field(name='Type (Attribute)', value='Zombie/Normal (DARK)', inline=False)
+        embed.add_field(name='Level (ATK/DEF)', value='5 (2300/2000)', inline=False)
+        embed.add_field(name='Lore Text', value='It is said that deep in the depths of the Underworld, Dante tamed a wicked and powerful monster that holds great power. Without a soul to tether to, this beast power is unmatched, only rivaled by the Light itself.', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)

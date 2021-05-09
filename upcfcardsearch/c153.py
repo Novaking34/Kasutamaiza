@@ -2,20 +2,20 @@ import discord
 from discord.ext import commands
 from discord.utils import get
 
-class c153(commands.Cog, name="c153"):
+class c153(commands.Cog, name="c132"):
 
     def __init__(self, bot: commands.Bot):
         self.bot = bot
-    @commands.command(name='Machine_Lord_Knight', aliases=['c153', 'Machine_Lord_3'])
+    @commands.command(name='Living_Bullet', aliases=['c153'])
     async def example_embed(self, ctx):
-        embed = discord.Embed(title='Machine Lord Knight',
+        embed = discord.Embed(title='Living Bullet',
                               color=0xFDE68A)
-        embed.set_thumbnail(url='https://www.duelingbook.com/images/custom-pics/2300000/2336251.jpg')
+        embed.set_thumbnail(url='https://www.duelingbook.com/images/custom-pics/2300000/2336244.jpg')
 
-        embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3 (Machine Lord)', inline=True)
+        embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3', inline=True)
         embed.add_field(name='Type (Attribute)', value='Machine/Normal (EARTH)', inline=False)
-        embed.add_field(name='Level (ATK/DEF)', value='6 (2000/2100)', inline=False)
-        embed.add_field(name='Lore Text', value='Forever in a battle with the Timekeepers, the Machine Lord empire grows stronger by the day. With the power of the Machine Lord Knight\'s, it is said nothing is impossible.', inline=False)
+        embed.add_field(name='Level (ATK/DEF)', value='7 (2850/2000)', inline=False)
+        embed.add_field(name='Lore Text', value='With nothing in its path, this bullet is always known to find its mark. People try to capture and control this bullet, but no man, beast or entity has yet been able to tame the Living Bullet.', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)

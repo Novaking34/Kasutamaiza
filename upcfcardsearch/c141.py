@@ -6,16 +6,16 @@ class c141(commands.Cog, name="c141"):
 
     def __init__(self, bot: commands.Bot):
         self.bot = bot
-    @commands.command(name='Genie_of_the_Sand', aliases=['c141'])
+    @commands.command(name='Fiendish_Key_of_the_Underworld', aliases=['c141'])
     async def example_embed(self, ctx):
-        embed = discord.Embed(title='Genie of the Sand',
+        embed = discord.Embed(title='Fiendish Key of the Underworld',
                               color=0xFDE68A)
-        embed.set_thumbnail(url='https://www.duelingbook.com/images/custom-pics/2300000/2336204.jpg')
+        embed.set_thumbnail(url='https://www.duelingbook.com/images/custom-pics/2300000/2336030.jpg')
 
         embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3', inline=True)
-        embed.add_field(name='Type (Attribute)', value='Rock/Normal (EARTH)', inline=False)
-        embed.add_field(name='Level (ATK/DEF)', value='1 (300/200)', inline=False)
-        embed.add_field(name='Lore Text', value='Without the mystic lamp to hold him back, the Genie is now free to run amok amongst the people. Some say a powerful bond can tame this Genie\'s heart, however.', inline=False)
+        embed.add_field(name='Type (Attribute)', value='Fiend/Normal (DARK)', inline=False)
+        embed.add_field(name='Level (ATK/DEF)', value='1 (0/0)', inline=False)
+        embed.add_field(name='Lore Text', value='No one knows where the key opens, but some say when its discovered, the demon king Luthro will reawaken from his dark slumber.', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)

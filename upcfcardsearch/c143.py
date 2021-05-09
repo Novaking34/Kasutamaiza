@@ -6,16 +6,16 @@ class c143(commands.Cog, name="c143"):
 
     def __init__(self, bot: commands.Bot):
         self.bot = bot
-    @commands.command(name='Goden_the_Wolf_Prince', aliases=['c143'])
+    @commands.command(name='Gilligan_the_Iron_Knight', aliases=['c143'])
     async def example_embed(self, ctx):
-        embed = discord.Embed(title='Goden the Wolf Prince',
+        embed = discord.Embed(title='Gilligan the Iron Knight',
                               color=0xFDE68A)
-        embed.set_thumbnail(url='https://www.duelingbook.com/images/custom-pics/2300000/2336209.jpg')
+        embed.set_thumbnail(url='https://www.duelingbook.com/images/custom-pics/2300000/2336207.jpg')
 
         embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3', inline=True)
-        embed.add_field(name='Type (Attribute)', value='Beast-Warrior/Normal (FIRE)', inline=False)
-        embed.add_field(name='Level (ATK/DEF)', value='3 (1300/1050)', inline=False)
-        embed.add_field(name='Lore Text', value='Though he is a young prince today, Goden leads the fiercest pack of wolf in the land. No creature can best his authority, and the animal respect his rule.', inline=False)
+        embed.add_field(name='Type (Attribute)', value='Warrior/Normal (FIRE)', inline=False)
+        embed.add_field(name='Level (ATK/DEF)', value='7 (2100/1000)', inline=False)
+        embed.add_field(name='Lore Text', value='Wandering the great forest, Gilligan works night and day, hoping to prevent the new Darkness from falling to the land.', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)

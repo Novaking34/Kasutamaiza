@@ -6,16 +6,16 @@ class c161(commands.Cog, name="c161"):
 
     def __init__(self, bot: commands.Bot):
         self.bot = bot
-    @commands.command(name='The_Colorful_Beast', aliases=['c161', 'The_Colorful_1'])
+    @commands.command(name='Sheki_the_Mecha_Ninja_of_Time', aliases=['c161', 'of_Time_2'])
     async def example_embed(self, ctx):
-        embed = discord.Embed(title='The Colorful Beast',
+        embed = discord.Embed(title='Sheki the Mecha Ninja of Time',
                               color=0xFDE68A)
-        embed.set_thumbnail(url='https://www.duelingbook.com/images/custom-pics/2300000/2344688.jpg')
+        embed.set_thumbnail(url='https://www.duelingbook.com/images/custom-pics/2300000/2336293.jpg')
 
-        embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3 (The Colorful)', inline=True)
-        embed.add_field(name='Type (Attribute)', value='Fairy/Normal (LIGHT)', inline=False)
-        embed.add_field(name='Level (ATK/DEF)', value='1 (0/0)', inline=False)
-        embed.add_field(name='Lore Text', value='It is said that after the world was reformed, a mystical beast created by angelic fairies of many colors appear. It might be weak now, but some say that its true power is hidden away by the creators themselves!', inline=False)
+        embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3 (of Time)', inline=True)
+        embed.add_field(name='Type (Attribute)', value='Machine/Normal (LIGHT)', inline=False)
+        embed.add_field(name='Level (ATK/DEF)', value='5 (1900/2300)', inline=False)
+        embed.add_field(name='Lore Text', value='During the First Great War, many monsters were defenseless against the power that more formidable foes possesses. Unable to attend the Grand Gathering of the Kasutamaizers, a mysterious woman built Sheki to protect her town. Deemed a hero, Sheki guards the town and protects the weak, some say even he hides secrets... ', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)

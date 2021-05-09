@@ -6,16 +6,16 @@ class c149(commands.Cog, name="c149"):
 
     def __init__(self, bot: commands.Bot):
         self.bot = bot
-    @commands.command(name='Jetstream_Time_Dragon', aliases=['c149'])
+    @commands.command(name='Infectasaurous', aliases=['c149'])
     async def example_embed(self, ctx):
-        embed = discord.Embed(title='Jetstream Time Dragon',
+        embed = discord.Embed(title='Infectasaurous',
                               color=0xFDE68A)
-        embed.set_thumbnail(url='https://www.duelingbook.com/images/custom-pics/2300000/2336225.jpg')
+        embed.set_thumbnail(url='https://www.duelingbook.com/images/custom-pics/2300000/2336224.jpg')
 
         embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3', inline=True)
-        embed.add_field(name='Type (Attribute)', value='Dragon/Toon/Normal (LIGHT)', inline=False)
-        embed.add_field(name='Level (ATK/DEF)', value='6 (2200/2000)', inline=False)
-        embed.add_field(name='Lore Text', value='From all across the world, this dragon has a grand set of knowledge to him. However, a strange phenomenon caused it to be trapped in between a time paradox. Forever traveling, this dragon ushers in the new frontier of monsters every 100 years.', inline=False)
+        embed.add_field(name='Type (Attribute)', value='Dinosaur/Normal (WATER)', inline=False)
+        embed.add_field(name='Level (ATK/DEF)', value='6 (2450/2100)', inline=False)
+        embed.add_field(name='Lore Text', value='The Infectasaurous is a rare breed of dinosaurs that hunt together in the wilds of the forest. It is said that these great lizard\'s skin is so tough, not even the strongest of topical poisons can harm them. They are even known to attack enemies while dipped in such toxins.', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)

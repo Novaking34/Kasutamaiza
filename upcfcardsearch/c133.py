@@ -6,16 +6,16 @@ class c133(commands.Cog, name="c133"):
 
     def __init__(self, bot: commands.Bot):
         self.bot = bot
-    @commands.command(name='Da_Prince_Charmed!', aliases=['c133'])
+    @commands.command(name='Cyberse-Cop', aliases=['c133'])
     async def example_embed(self, ctx):
-        embed = discord.Embed(title='Da Prince Charmed!',
+        embed = discord.Embed(title='Cyberse-Cop',
                               color=0xFDE68A)
-        embed.set_thumbnail(url='https://www.duelingbook.com/images/custom-pics/2300000/2334900.jpg')
+        embed.set_thumbnail(url='https://www.duelingbook.com/images/custom-pics/2300000/2334898.jpg')
 
         embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3', inline=True)
-        embed.add_field(name='Type (Attribute)', value='Aqua/Normal (WATER)', inline=False)
-        embed.add_field(name='Level (ATK/DEF)', value='3 (1800/100)', inline=False)
-        embed.add_field(name='Lore Text', value='He is in search for his princess, hoping to break the curse that is upon him.', inline=False)
+        embed.add_field(name='Type (Attribute)', value='Cyberse/Normal (FIRE)', inline=False)
+        embed.add_field(name='Level (ATK/DEF)', value='7 (3000/2500)', inline=False)
+        embed.add_field(name='Lore Text', value='Constantly on guard, the Cyberse-Cops stop at nothing to ensure truth and justice is upheld. They are constanly updated on the crime in the area and are swift in taking action.', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)

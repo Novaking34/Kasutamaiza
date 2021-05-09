@@ -6,16 +6,16 @@ class c128(commands.Cog, name="c128"):
 
     def __init__(self, bot: commands.Bot):
         self.bot = bot
-    @commands.command(name='Anu_the_Lord_of_Darkness', aliases=['c128'])
+    @commands.command(name='Automaton_the_Ultimate', aliases=['c128','Automaton_1'])
     async def example_embed(self, ctx):
-        embed = discord.Embed(title='Anu, the Lord of Darkness',
-                              color=0xFDE68A)
-        embed.set_thumbnail(url='https://www.duelingbook.com/images/custom-pics/2300000/2334887.jpg')
+        embed = discord.Embed(title='Automaton the Ultimate',
+                              color=0xff8b53)
+        embed.set_thumbnail(url='https://www.duelingbook.com/images/custom-pics/2300000/2334886.jpg')
 
-        embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3', inline=True)
-        embed.add_field(name='Type (Attribute)', value='Spellcaster/Normal (DARK)', inline=False)
-        embed.add_field(name='Level (ATK/DEF)', value='5 (2200/1500)', inline=False)
-        embed.add_field(name='Lore Text', value='Feared by all who gazes upon his power, Anu rules over the darkness with an iron fist. It is said that Anu has his potential bottled away, awaiting for someone to release his true power.', inline=False)
+        embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3 (Automaton)', inline=True)
+        embed.add_field(name='Type (Attribute)', value='Machine/Effect (EARTH)', inline=False)
+        embed.add_field(name='Level (ATK/DEF)', value='1 (0/0)', inline=False)
+        embed.add_field(name='Monster Effect', value='If this card is Normal Summoned while you control "Right Arm of Automaton", "Left Arm of Automaton", "Right Leg of Automaton". and "Left Leg of Automaton", this card ATK/DEF becomes 5000 and it cannot be Tributed, also this card is unaffected by your opponent\'s card effects. If this card would would be sent to the GY, you can banish 1 "Automaton" Normal Monster you control or in your GY instead. If this card leaves the field, you lose the Duel.', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)

@@ -6,16 +6,16 @@ class c138(commands.Cog, name="c138"):
 
     def __init__(self, bot: commands.Bot):
         self.bot = bot
-    @commands.command(name='DracoGuard_of_the_Gate', aliases=['c138'])
+    @commands.command(name='Deadly_Plant_Beast', aliases=['c138'])
     async def example_embed(self, ctx):
-        embed = discord.Embed(title='DracoGuard of the Gate',
+        embed = discord.Embed(title='Deadly Plant Beast',
                               color=0xFDE68A)
         embed.set_thumbnail(url='https://www.duelingbook.com/images/custom-pics/2300000/2334912.jpg')
 
         embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3', inline=True)
-        embed.add_field(name='Type (Attribute)', value='Wyrm/Normal (FIRE)', inline=False)
-        embed.add_field(name='Level (ATK/DEF)', value='8 (3000/2800)', inline=False)
-        embed.add_field(name='Lore Text', value='In order to prevent the living and dead from creating chaos once more, the Dragon race offered their champion to stand guard at the Gates between the two worlds. Standing tall, only the most clever of the bunch can get past his mighty gaze.', inline=False)
+        embed.add_field(name='Type (Attribute)', value='Plant/Normal (EARTH)', inline=False)
+        embed.add_field(name='Level (ATK/DEF)', value='5 (2350/1400)', inline=False)
+        embed.add_field(name='Lore Text', value='Fear them, for they lurk the darkness of the great forest. These plants hunt and destroy all they see, causing fear among all the forest dwellers.', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)

@@ -6,16 +6,16 @@ class c130(commands.Cog, name="c130"):
 
     def __init__(self, bot: commands.Bot):
         self.bot = bot
-    @commands.command(name='Aquamarine_the_Water_Bearing_Queen', aliases=['c130'])
+    @commands.command(name='Aqua_Marine_Battleship', aliases=['c130'])
     async def example_embed(self, ctx):
-        embed = discord.Embed(title='Aquamarine the Water Bearing Queen',
+        embed = discord.Embed(title='Aqua Marine Battleship',
                               color=0xFDE68A)
-        embed.set_thumbnail(url='https://www.duelingbook.com/images/custom-pics/2300000/2334891.jpg')
+        embed.set_thumbnail(url='https://www.duelingbook.com/images/custom-pics/2300000/2334888.jpg')
 
         embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3', inline=True)
         embed.add_field(name='Type (Attribute)', value='Aqua/Normal (WATER)', inline=False)
-        embed.add_field(name='Level (ATK/DEF)', value='1 (500/750)', inline=False)
-        embed.add_field(name='Lore Text', value='She hits the swimming pool scene, water so clean, they think she is so mean, but my girl Aquamarine is a Water Bearing Queen!', inline=False)
+        embed.add_field(name='Level (ATK/DEF)', value='4 (2200/0)', inline=False)
+        embed.add_field(name='Lore Text', value='Among the great reef, a patrolling battleship roams the sea. Called the Aqua Marine, all those who see this powerful ship quiver in fear.', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)

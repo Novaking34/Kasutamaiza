@@ -6,15 +6,15 @@ class c175(commands.Cog, name="c175"):
 
     def __init__(self, bot: commands.Bot):
         self.bot = bot
-    @commands.command(name='Phantaclysmic_Commandments', aliases=['c175', 'Phantaclysms_9'])
+    @commands.command(name='Procession_of_Phantaclysms', aliases=['c175', 'Phantaclysms_8'])
     async def example_embed(self, ctx):
-        embed = discord.Embed(title='Phantaclysmic Commandments',
-                              color=0xBC5A84)
-        embed.set_thumbnail(url='https://www.duelingbook.com/images/custom-pics/2300000/2344820.jpg')
+        embed = discord.Embed(title='Procession of Phantaclysms',
+                              color=0x1D9E74)
+        embed.set_thumbnail(url='https://www.duelingbook.com/images/custom-pics/2300000/2344816.jpg')
 
         embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3 (Phantaclysms)', inline=True)
-        embed.add_field(name='Type', value='Trap/Continuous', inline=False)
-        embed.add_field(name='Card Effect', value='Once per turn: You can target 1 card on the field, or in either player\'s GY; destroy 1 "Phantaclysm" card in your hand or field, except "Phantaclysmic Commandments", and if you do, return the targeted card to its owners hand and all activated card effects with the same name as the targeted card are negated until the end of the turn. If you activate another "Phantaclysmic Commandments": Send this card to the GY.', inline=False)
+        embed.add_field(name='Type', value='Spell/Continuous', inline=False)
+        embed.add_field(name='Card Effect', value='You can target 1 other "Phantaclysm" card you control; destroy that target, and if you do, Special Summon 1 "Phantaclysmic" monster from your Deck. During the End Phase, if this card is in the GY and a "Phantaclysmic" card was destroyed and sent to the GY by an opponent\'s card or effect this turn: You can banish this card from your GY; return 1 "Phantaclysm" card from your GY to your hand. You can only activate each effect of "Procession of Phantaclysms" once per turn.', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)

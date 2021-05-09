@@ -6,17 +6,17 @@ class c194(commands.Cog, name="c194"):
 
     def __init__(self, bot: commands.Bot):
         self.bot = bot
-    @commands.command(name='Scorn_Operative_Eclipse', aliases=['c194', 'Scorn_Operative_1'])
+    @commands.command(name='Mechanical_Servant_Nana', aliases=['c194', 'Devoted_Servant_15'])
     async def example_embed(self, ctx):
-        embed = discord.Embed(title='Scorn Operative - Eclipse',
-                              color=0xff8b53)
-        embed.set_thumbnail(url='https://www.duelingbook.com/images/custom-pics/2300000/2348890.jpg')
+        embed = discord.Embed(title='Mechanical Servant Nana',
+                              color=0xcccccc)
+        embed.set_thumbnail(url='https://www.duelingbook.com/images/custom-pics/2300000/2345163.jpg')
 
-        embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3 (Scorn Operative)', inline=True)
-        embed.add_field(name='Type (Attribute)', value='Cyberse/Effect (DARK)', inline=False)
-        embed.add_field(name='Level (ATK/DEF)', value='8 (2000/2000)', inline=False)
-        embed.add_field(name='Monster Effect', value='You can Special Summon this card (from your hand) by Tributing 1 "Scorn Operative" monster that began the Duel in the Extra Deck. Once while this card is face-up on the field: You can make this card lose exactly 1500 ATK. Once per turn, if this card\'s ATK on the field is reduced by a card effect: This card gains 2000 ATK, and if it does, you can return 1 "Manoeuvre -" card you control to the Deck, and if you do that, activate 1 "Manoeuvre -" Spell/Trap with a different name from your Deck. You can only Summon "Scorn Operative - Eclipse" once per turn.', inline=False)
-        embed.set_footer(text='Set Code: GMMP')
+        embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3 (Devoted Servant)', inline=True)
+        embed.add_field(name='Type (Attribute)', value='Machine/Synchro/Effect (LIGHT)', inline=False)
+        embed.add_field(name='Level (ATK/DEF)', value='4 (1000/1000)', inline=False)
+        embed.add_field(name='Monster Effect', value='1 Tuner + "Devoted Servant Nana"\nDuring your turn (Quick Effect): You can banish 1 "Devoted Servant" card from your GY and target 1 card in your opponent\'s GY; banish it. During your opponent\'s turn (Quick Effect): You can discard 1 card and target 1 card on the field; that card cannot be destroyed or banished by card effects this turn. If this card destroyed: You can shuffle 1 banished "Devoted Servant" card into the Deck; gain 1000 LP. You can only use each effect of "Mechanical Servant Nana" once per turn.', inline=False)
+        embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)
 

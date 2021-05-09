@@ -6,16 +6,16 @@ class c148(commands.Cog, name="c148"):
 
     def __init__(self, bot: commands.Bot):
         self.bot = bot
-    @commands.command(name='Infectasaurous', aliases=['c148'])
+    @commands.command(name='Hykamiko', aliases=['c148', 'A.I_1'])
     async def example_embed(self, ctx):
-        embed = discord.Embed(title='Infectasaurous',
+        embed = discord.Embed(title='Hykamiko',
                               color=0xFDE68A)
-        embed.set_thumbnail(url='https://www.duelingbook.com/images/custom-pics/2300000/2336224.jpg')
+        embed.set_thumbnail(url='https://www.duelingbook.com/images/custom-pics/2300000/2336220.jpg')
 
-        embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3', inline=True)
-        embed.add_field(name='Type (Attribute)', value='Dinosaur/Normal (WATER)', inline=False)
-        embed.add_field(name='Level (ATK/DEF)', value='6 (2450/2100)', inline=False)
-        embed.add_field(name='Lore Text', value='The Infectasaurous is a rare breed of dinosaurs that hunt together in the wilds of the forest. It is said that these great lizard\'s skin is so tough, not even the strongest of topical poisons can harm them. They are even known to attack enemies while dipped in such toxins.', inline=False)
+        embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3 (A.I)', inline=True)
+        embed.add_field(name='Type (Attribute)', value='Pyro/Normal (FIRE)', inline=False)
+        embed.add_field(name='Level (ATK/DEF)', value='6 (2050/1400)', inline=False)
+        embed.add_field(name='Lore Text', value='With the new rise in technology, a mysterious force created a rift between the physical and technological world. Slowly slipping into the world of Kustomazi. Hykamiko, the driving force, bridged the world of modern media and TV to an ever so changing world. Even with advance magic, a new force deemed "A.I" began to spread, creating a new dynamic among the people.\n\n(This card is always treated as an "A.I" monster.)', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)

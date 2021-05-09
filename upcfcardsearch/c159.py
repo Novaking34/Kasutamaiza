@@ -6,16 +6,16 @@ class c159(commands.Cog, name="c159"):
 
     def __init__(self, bot: commands.Bot):
         self.bot = bot
-    @commands.command(name='Rodor_the_Keeper_of_Time', aliases=['c159', 'of_Time_1'])
+    @commands.command(name='Right_Leg_of_Automaton', aliases=['c159', 'Automaton_5'])
     async def example_embed(self, ctx):
-        embed = discord.Embed(title='Rodor the Keeper of Time',
+        embed = discord.Embed(title='Right Arm of Automaton',
                               color=0xFDE68A)
-        embed.set_thumbnail(url='https://www.duelingbook.com/images/custom-pics/2300000/2336276.jpg')
+        embed.set_thumbnail(url='https://www.duelingbook.com/images/custom-pics/2300000/2336273.jpg')
 
-        embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3 (of Time)', inline=True)
-        embed.add_field(name='Type (Attribute)', value='Psychic/Normal (DARK)', inline=False)
-        embed.add_field(name='Level (ATK/DEF)', value='4 (1300/1700)', inline=False)
-        embed.add_field(name='Lore Text', value='During the creation of the new world, a race of Time Keepers were born, task to keep the history of all that was going on in the world. From countless battles to becoming a leader of the First Great War, to working with a unknown species of Gem-like creatures guarding great treasures, Rodor has keep its history bound and ready, just in case history repeats itself.', inline=False)
+        embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3 (Automaton)', inline=True)
+        embed.add_field(name='Type (Attribute)', value='Machine/Normal (EARTH)', inline=False)
+        embed.add_field(name='Level (ATK/DEF)', value='1 (0/0)', inline=False)
+        embed.add_field(name='Lore Text', value='The right leg to a gigantic mech, it it said that if you gather the other 4 pieces to this machine, a great mech of extraordinary power can be created.', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)
