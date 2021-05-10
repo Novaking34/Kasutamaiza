@@ -10,7 +10,7 @@ class c210(commands.Cog, name="c210"):
     async def example_embed(self, ctx):
         embed = discord.Embed(title='Scorn Operative - Halfmoon',
                               color=0x00008B)
-        embed.set_thumbnail(url='https://www.duelingbook.com/images/custom-pics/2300000/2348926.jpg')
+        embed.set_thumbnail(url='https://www.duelingbook.com/images/custom-pics/2300000/2348931.jpg')
 
         embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3 (Scorn Operative)', inline=True)
         embed.add_field(name='Type (Attribute)', value='Cyberse/Link/Effect (LIGHT)', inline=False)
