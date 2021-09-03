@@ -14,7 +14,7 @@ class c21(commands.Cog, name="c21"):
 
         embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3 (Temporal)', inline=True)
         embed.add_field(name='Type', value='Spell/Normal', inline=False)
-        embed.add_field(name='Card Effect', value='Fusion Summon 1 Fusion Monster by sending Aqua, Pyro and/or Rock monsters from your hand or field to the GY, or shuffling banished "Temporal" monsters into the Deck as Fusion Material. Once per turn, during either players Main Phase, except the turn this card was sent to the GY, you can banish this card from your GY; return 1 banished "Temporal" monster to the GY.', inline=False)
+        embed.add_field(name='Card Effect', value='Fusion Summon 1 Fusion Monster by sending Aqua, Pyro and/or Rock monsters from your hand or field to the GY, or shuffling banished "Temporal" monsters into the Deck as Fusion Material. Once per turn, during either players Main Phase, except the turn this card was sent to the GY: You can banish this card from your GY; return 1 banished "Temporal" monster to the GY.', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)

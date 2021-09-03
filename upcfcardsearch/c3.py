@@ -14,7 +14,7 @@ class c3(commands.Cog, name="c3"):
 
         embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3', inline=True)
         embed.add_field(name='Type', value='Spell/Quick-Play', inline=False)
-        embed.add_field(name='Card Effect', value='When a monster declares an attack: Negate the attack, and if you do, destroy all other monsters the turn player controls', inline=False)
+        embed.add_field(name='Card Effect', value='When a monster declares an attack: Negate the attack, and if you do, destroy all other monsters the turn player controls.', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)
