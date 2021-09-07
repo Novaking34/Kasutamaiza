@@ -14,7 +14,7 @@ class c38(commands.Cog, name="c38"):
         embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3 (Hidden Treasure)', inline=True)
         embed.add_field(name='Type (Attribute)', value='Beast/Xyz/Effect (EARTH)', inline=False)
         embed.add_field(name='Rank (ATK/DEF)', value='4 (2000/1900)', inline=False)
-        embed.add_field(name='Monster Effect', value='2+ Level 4 Beast monsters\nThis card gains 200 ATK/DEF for each material attached to this card. Once per turn, if a card is discarded from your hand by the effects of a "Hidden Treasure" monster, you can attach the discarded card to this card. Once per turn (Quick Effect): You can detach 2 materials from this card, then target 1 card on each field; return them to the hand.', inline=False)
+        embed.add_field(name='Monster Effect', value='2+ Level 4 Beast monsters\nThis card gains 200 ATK/DEF for each material attached to this card. Once per turn, if a card is discarded from your hand by the effects of a "Hidden Treasure" monster, you can attach the discarded card to this card after that effect resolves. Once per turn (Quick Effect): You can detach 2 materials from this card, then target 1 card on each field; return them to the hand.', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)
