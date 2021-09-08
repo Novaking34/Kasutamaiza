@@ -14,7 +14,7 @@ class c45(commands.Cog, name="c45"):
 
         embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3', inline=True)
         embed.add_field(name='Type', value='Spell/Field', inline=False)
-        embed.add_field(name='Card Effect', value='When this card is activated: All non-Toon Monsters you control are banished face-down, then if you control no monsters, take 2000 LP. This card\'s name becomes "That\'s All Folks" while in the Field Zone. Your opponent cannot target Toon Monsters you control with card effects. If a Toon Monster(s) you control would be destroyed by battle or card effect, you can banish 1 Toon Monster from your Deck instead.', inline=False)
+        embed.add_field(name='Card Effect', value='When this card is activated: All non-Toon Monsters you control are banished face-down, then if you control no monsters, take 2000 LP. This card\'s name becomes "That\'s All Folks" while in the Field Zone. Your opponent cannot target Toon Monsters you control with card effects. If a Toon Monster(s) you control would be destroyed by battle or card effect, you can banish Toon Monster(s) or card\'s that specifically list "Toon Monster" from your Deck, face-down, for each instead.', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)

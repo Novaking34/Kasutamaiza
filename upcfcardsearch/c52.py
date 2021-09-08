@@ -15,7 +15,7 @@ class c52(commands.Cog, name="c52"):
         embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3', inline=True)
         embed.add_field(name='Type (Attribute)', value='Rock/Effect (EARTH)', inline=False)
         embed.add_field(name='Level (ATK/DEF)', value='1 (0/0)', inline=False)
-        embed.add_field(name='Monster Effect', value='Any battle damage involving this card is reduced to 0. You can Tribute this Normal Summoned card; add 1 Level 4 or lower Normal Monster from your Deck to your hand. You can only activate this effect of "A-dorawisp" once per turn.', inline=False)
+        embed.add_field(name='Monster Effect', value='If this card is destroyed by battle: Change the monster that destroyed this card to face down Defense Position, or if it was a Link Monster, destroy it. Until the end of your opponent next Battle Phase, that monster cannot changes it battle position. If this card sent from the field to the GY, banish it face down.', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)

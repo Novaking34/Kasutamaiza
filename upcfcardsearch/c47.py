@@ -15,7 +15,7 @@ class c47(commands.Cog, name="c47"):
         embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3', inline=True)
         embed.add_field(name='Type (Attribute)', value='Fairy/Effect (LIGHT)', inline=False)
         embed.add_field(name='Level (ATK/DEF)', value='5 (100/2500)', inline=False)
-        embed.add_field(name='Monster Effect', value='Quick Effect): You can discard this card, then target 1 monster your opponent\'s control; this turn, that card cannot be destroyed by battle or card effect and cannot be used as Material for a Summoning of an Extra Deck monster, but you cannot activate monster effects during your next turn. You can only use 1 "A la Mode Donna" per turn.', inline=False)
+        embed.add_field(name='Monster Effect', value='(Quick Effect): You can discard this card, then target 1 monster your opponent\'s control; this turn, that card cannot be destroyed by battle or card effect and cannot be used as Material for a Summoning of an Extra Deck monster, but you cannot activate monster effects during your next turn. You can only use 1 "A la Mode Donna" per turn.', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)

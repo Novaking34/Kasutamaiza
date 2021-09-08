@@ -14,7 +14,7 @@ class c44(commands.Cog, name="c44"):
 
         embed.add_field(name='Status (Archetype)', value='Casual:3/Tournament:3', inline=True)
         embed.add_field(name='Type', value='Spell/Continuous', inline=False)
-        embed.add_field(name='Card Effect', value='You must pay 1000 LP to activate this card. When this card is activated: Add 1 Toon Monster from your Deck to your hand. During the 2nd Standby Phase after this card\'s activated, you can send it to the GY: Add 1 "Toontastic Kingdom" from your Deck to you hand, then, if you control no Field Spells, activate it.', inline=False)
+        embed.add_field(name='Card Effect', value='You must pay 1000 LP to activate this card. When this card is activated: Add 1 Toon Monster from your Deck to your hand. During the 2nd Standby Phase after this card\'s activated, you can send it to the GY: Add 1 "Toontastic Kingdom" from your Deck to you hand, then, if you control no Field Spells, activate it. You can only activate 1 "That\'s All Folks" per turn.', inline=False)
         embed.set_footer(text='Set Code: ANCF')
 
         await ctx.send(embed=embed)
